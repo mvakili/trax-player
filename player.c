@@ -123,9 +123,10 @@
 		{
 			if(!started)
 			{
+				printf("Choose your color: W[hite] / B[lack]\n");
 				scanf("%s",current_move); // from RS232
 				//cin(current_move);
-				if (current_move[1] == 'W')
+				if (current_move[0] == 'W')
 				{
 					me = WHITE;
 				}
